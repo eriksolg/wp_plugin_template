@@ -1,0 +1,36 @@
+{
+    "name": "plugin-template",
+    "version": "1.0.0",
+    "description": "Plugin Template description",
+    "author": "Erik Sõlg (https://www.linkedin.com/in/erik-solg/)",
+    "browserify": {
+        "transform": [
+            "browserify-shim"
+        ]
+    },
+    "browserify-shim": {},
+    "license": "GPL-3.0",
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
+        "babelify": "^10.0.0",
+        "browserify": "^17.0.0",
+        "browserify-shim": "^3.8.14",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-rename": "^2.0.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-sourcemaps": "^3.0.0",
+        "gulp-uglify": "^3.0.2",
+        "vinyl-buffer": "^1.0.1",
+        "vinyl-source-stream": "^2.0.0"
+    },
+    "browserslist": [
+        "defaults"
+    ],
+    "babel": {
+        "presets": [
+            "@babel/preset-env"
+        ]
+    }
+}

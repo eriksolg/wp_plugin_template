@@ -1,0 +1,1 @@
+# Modular template to be used for creating Wordpress plugins
